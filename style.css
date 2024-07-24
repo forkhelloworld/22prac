@@ -5,3 +5,8 @@ div {
   border: 2px solid rgb(30, 30, 30);
   background-color: grey;
 }
+
+.light {
+  background-color: gold;
+  border: 2px solid white;
+}

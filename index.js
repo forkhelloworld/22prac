@@ -6,9 +6,9 @@
 
 const helloButton = document.querySelector("#helloButton");
 
-helloButton.addEventListener("click", () => {
-  alert("Привіт тобі, клацальщик");
-});
+helloButton.addEventListener("click", () => 
+  alert("Привіт тобі, клацальщик")
+);
 
 /* 
 2. Створити посилання з текстом “клікни, аби з’явилась кнопка”. За натиснення на посилання поряд з ним має з’явитись новий елемент - кнопка.
@@ -39,8 +39,7 @@ const lightButton = document.querySelector("#lightButton");
 
 function lightOn() {
   const div = document.querySelector("#light");
-  div.style.backgroundColor = "gold";
-  div.style.border = "2px solid white";
+  div.classList.toggle("light");
 }
 
 lightButton.addEventListener("click", lightOn);
